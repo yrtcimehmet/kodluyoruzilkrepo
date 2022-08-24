@@ -1,0 +1,51 @@
+body {
+	background: rgb(209, 188, 160);
+}
+h1 {
+	color: rgb(114, 61, 61);
+	font-size: xx-large;
+	font-style: italic;
+}
+
+.secMiddle {
+	width: 100%;
+	height: 600px;
+	clear: both;
+}
+
+.heading {
+	font-weight: bold;
+	color: rgb(114, 61, 61);
+	margin: 0 6px;
+}
+
+.top {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	justify-content: center;
+}
+h3 {
+	background: rgb(114, 61, 61);
+	color: white;
+	border-radius: 10px;
+	width: fit-content;
+}
+.bottom {
+	width: fit-content;
+	height: fit-content;
+	padding-left: 350px;
+	margin-bottom: 10px;
+}
+.footer {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.footer span {
+	margin: 10px 20px 0 0;
+	font-family: 'Comic Neue', sans-serif;
+	font-size: 40px;
+}
